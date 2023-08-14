@@ -96,6 +96,7 @@ export default function App() {
               maxPossiblePoints={maxPossiblePoints}
               answer={answer}
             />
+
             <Question
               question={questions[index]}
               dispatch={dispatch}
